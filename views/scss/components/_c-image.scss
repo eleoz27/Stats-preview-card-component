@@ -1,0 +1,29 @@
+.c-image{
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    @include lg() {
+        width: 50%;
+        height: 100%;
+        border-radius: 0 15px 15px 0;
+    }
+    &__desktop{
+        border-radius: 0 15px 15px 0;
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+    &__movil {
+        height: 25vh;
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+        position: absolute;
+
+    }
+}
+
+
+

@@ -1,0 +1,50 @@
+.c-feactures{
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include lg {
+        width: 85%;
+        flex-direction: row;
+        align-self: flex-start;
+        justify-content: space-between;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 25px 0;
+        @include lg {
+            align-items: flex-start;
+            padding: 0 0 15px 0;
+        }
+    }
+    &__title{
+        color: $titulosc;
+        font-family: $font-a;
+        font-weight: $a;
+        font-size: 1.3rem;
+        letter-spacing: 1.2px;
+    }
+    &__subtitle{
+        color: $statc;
+        font-family: $font-b;
+        font-weight: $b;
+        letter-spacing: 1.2px;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+
+
+}
+
+
+
+
+
+
+

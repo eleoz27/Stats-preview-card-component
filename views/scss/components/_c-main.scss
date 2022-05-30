@@ -1,0 +1,17 @@
+
+.c-main {
+    display: flex;
+    flex-direction: column;
+    background-color: $background;
+    padding: 0%;
+    margin: 10%;
+    color: $titulosc;
+    border-radius: 15px;
+    @include lg{
+        height: 600px;
+        margin: 5%;
+        flex-direction: row-reverse;
+    }
+
+    
+}

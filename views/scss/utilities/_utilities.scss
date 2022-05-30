@@ -1,0 +1,27 @@
+.u-none--mobile {
+    display: block;
+    @include lg {
+        display: none!important;
+    }
+}
+
+
+.u-none--desktop {
+    display: none!important;
+    @include lg {
+        display: block!important;
+    }
+}
+
+.u-overlay {
+    width: 100%;
+    background-color: hsl(277deg 100% 39% / 42%);
+    height: 25vh;
+    position: absolute;
+    border-radius: 25px 25px 0 0;
+    @include lg() {
+        height: 600px;
+        border-radius:0 25px 25px 0;
+        top: 0;
+    }
+}
